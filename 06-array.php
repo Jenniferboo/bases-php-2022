@@ -63,6 +63,21 @@ yes, je vais bien!
 
 coucou, vous allez bien? 
 Yes, je vais bien!
+<h2>Le tableau associatif</h2>
+<p>La principale différence avec le tableau indexé est que lon modifie au moins une clef, avec un numérique ou chaine de cractère!</p>
+
+<?php
+$tab= array(2 => "un","deux","trois");
+var_dump($tab);
+$tabAssoc = [
+    "id"=>29,
+    "prenom"=> "Yann",
+    "nom"=>"Goodlife",
+    "mail"=> "mail@mail.com",
+
+];
+var_dump($tabAssoc);
+?>
 
 </code></pre>
 </body>
