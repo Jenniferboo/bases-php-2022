@@ -48,3 +48,8 @@ echo $i--; // 2 car affiche $i avant de diminuer 1
 echo $i // 1
 echo --$i; // 0 car la décrémentation se fait avant l'affichage 
     </code></pre>
+    <?php
+    // affichez moi les chiffres de 1000 à 0 séparés par un espace
+    //affichez-moi  tous les paires entre 2 et 1000
+    //afiichez-moi tous les impaires entre 1 et -99
+    // voire les réponse sur 08-01exefor.php
