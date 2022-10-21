@@ -16,6 +16,7 @@
     include "18-footer-1.php2"; 
     // malgré l'erreur, le code ne s'arrête pas, on charge donc encore le footer
     include "18-footer-1.php"; 
+    echo "<h3>Je suis quand même exécuté</h3>";
     ?>
 </body>
 </html>
